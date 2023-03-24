@@ -2,7 +2,8 @@
     font-family:'Courier New', Courier, monospace
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
     text-decoration: underline;
 }
@@ -37,7 +38,16 @@ li:hover {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
 }
 
+.main.recipe {
+    width: 700px;
+}
+
 .avatar.proportioned {
     height: auto;
     width: 200px;
+}
+
+.avatar.recipe {
+    height: auto;
+    width: 350px;
 }

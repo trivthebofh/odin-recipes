@@ -31,9 +31,15 @@ li:hover {
     text-decoration: none;
 }
 
+li:hover a {
+    color: white;
+}
+
 .main {
     display: block;
-    margin: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 350px;
     background-color: cyan;
     padding: 20px;
